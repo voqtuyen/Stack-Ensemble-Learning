@@ -9,6 +9,7 @@ There are two approaches for combining models: voting and stacking
 
 ### 2. Stacking framework
 
+![Stacking framework](images/stacking-framework.png)
 
 
 
