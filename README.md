@@ -1,11 +1,14 @@
 # Stacked Ensemble Learning
 
-### 1. Popular ways of combining classifiers
+### 1. How to combine classifiers
 There are two approaches for combining models: voting and stacking
 - In voting, label that is most often assigned to a particular instance is chosing as the correct prediction. Let's take a real life example of voting. 
   * In our day to day life, when crucial decisions are made in a meeting, a voting among the members present in the meeting is conducted when the opinions of the members conflict with each other. 
   * This principle of “voting” can be applied to machine learning also. In voting scheme, when classifiers are combined, the class assigned to a test instance will be the one suggested by most of the base level classifiers involved in the ensemble
-- In stacking, a second-level learner or meta-learner is trained to combine the first-level learners
+- In stacking, a second-level learner or meta-learner is trained to combine the first-level learners.
+
+### 2. Stacking framework
+
 
 
 
