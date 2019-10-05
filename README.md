@@ -1,1 +1,15 @@
-# Stack-Ensemble-Learning
+# Stacked Ensemble Learning
+
+- There are two approaches for combining models: voting and stacking
+  * In voting, label that is most often assigned to a particular instance is chosing as the correct prediction.
+  * In stacking, a second-level learner or meta-learner is trained to combine the individual learns
+
+
+
+
+
+
+
+## Reference
+[1] http://www2.islab.ntua.gr/attachments/article/86/Ensemble%20methods%20-%20Zhou.pdf
+[2] https://www3.nd.edu/~rjohns15/cse40647.sp14/www/content/lectures/32%20-%20Stacking.pdf
