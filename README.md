@@ -18,6 +18,11 @@ There are two approaches for combining models: voting and stacking
 
 
 
+## FAQ
+1. Why do we have to generate a new dataset for the first-level classifiers in the training phase?
+
+If the exact data that are used to train the first-level learner are also used to generate the new data set for training the second-level learner, there will be a high risk of overfitting. Hence, it is suggested that the instances used for generating the new data set are excluded from the training examples for the first-level learners, and a crossvalidation or leave-one-out procedure is often recommended
+
 
 ## Reference
 1. http://www2.islab.ntua.gr/attachments/article/86/Ensemble%20methods%20-%20Zhou.pdf
